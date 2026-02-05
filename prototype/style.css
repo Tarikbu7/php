@@ -1,0 +1,114 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Heading */
+h1 {
+    color: #000000;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    font-size: 2em;
+    letter-spacing: 1px;
+    border-color: #45a049;
+}
+
+label{
+
+font-size: 16px;
+text-shadow: #16be07;
+border: none;
+text-decoration: solid;
+ font-weight: bold;
+}
+
+
+
+
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 350px;
+    width: 200%;
+    transition: all 0.3s ease;
+}
+
+/* Form hover effect */
+form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* Input fields and select dropdown */
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #63e418;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+input[type="number"]:focus,
+select:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 12px rgba(76, 175, 80, 0.4);
+    outline: none;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Button hover and active effect */
+input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+input[type="submit"]:active {
+    transform: scale(0.97);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Result display */
+.result {
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: #16be07;
+    max-width: 360px;
+    width: 200%;
+    text-align: center;
+    transition: all 0.4s ease, transform 0.3s ease;
+    opacity: 0.95;
+    font-size: 25px ;
+}
+
+
